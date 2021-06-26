@@ -289,3 +289,19 @@ Fórmula para cualqyuer precio y cualquier descuento: `(precio * (100 - descuent
 ### Escribiendo HTML desde JavaScript
 
 ### Reto: funciones más inteligentes
+
+## Taller #3: promedio, moda y mediana
+
+### Qué es promedio, moda y mediana
+
+- Promedio o media aritmética (aunque hay varios tipos de promedio) = `sumatoria de X cantidad de números dividido entre X cantidad de números`
+- Mediana = `ordenar elementos de menor a mayor, y buscar el dato que este justo a la mitad (si es impar, es un número, si es par serán dos números sumados y dividido entre 2)`
+- Moda = `el elemento que más se repite`
+
+### Calculando el promedio en JavaScript
+
+### Calculando la mediana en JavaScript
+
+### Calculando la moda en JavaScript
+
+### Reto: calcula otros promedios
