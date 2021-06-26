@@ -277,3 +277,15 @@ muestraObjetoCompleto({name:'Miguel', lastname: 'Reyes'})
 ### Interactuando con JavaScript desde HTML
 
 ### Reto: Matemáticas con JavaScript
+
+## Taller 2: Precios y descuentos
+
+### Análisis: cómo calcular porcentajes y descuentos
+
+Fórmula para cualqyuer precio y cualquier descuento: `(precio * (100 - descuento))/100`
+
+### Crea una página web para calcular descuentos
+
+### Escribiendo HTML desde JavaScript
+
+### Reto: funciones más inteligentes
