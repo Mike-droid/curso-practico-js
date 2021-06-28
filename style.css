@@ -1,0 +1,78 @@
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  display: grid;
+  grid-template-rows: 2fr;
+  grid-template-columns: 1fr;
+  height: 100%;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header nav ul li {
+  list-style: none;
+}
+
+.header nav ul li a {
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.header nav ul li a:link,
+.header nav ul li a:visited {
+  color: #1813de
+}
+
+.main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-areas: "name linkedin"
+              "name github"
+              "name twitter";
+  place-items: center;
+}
+
+.main .main__h2_name {
+  grid-area: name;
+}
+
+.main .main__h2_linkedin {
+  grid-area: linkedin;
+}
+
+.main .main__h2_twitter {
+  grid-area: twitter;
+}
+
+.main .main__h2_github {
+  grid-area: github;
+}
+
+.main .main__h2_github,
+.main__h2_linkedin,
+.main .main__h2_twitter {
+  display: flex;
+  width: 50%;
+  justify-content: space-evenly;
+}
+
+.main .main__h2_linkedin a,
+.main .main__h2_github a,
+.main .main__h2_twitter a {
+  text-decoration: none;
+}
+
+.main h2 img {
+  width: 30px;
+}
+
+@media screen and (max-width:480px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+}
