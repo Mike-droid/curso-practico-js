@@ -35,4 +35,28 @@ form input[type="number"] {
 form button {
   width: fit-content;
   font-size: 1.2rem;
+  background-color: chartreuse;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+form button:hover {
+  background-color: #64c900;
+}
+
+@media screen and (max-width:900px) {
+  body {
+    height: 50%;
+  }
+
+  header .h1_title {
+    font-size: 1.4rem;
+  }
+
+  .main p,
+  #resultadosInversiones {
+    text-align: justify;
+    font-size: 1.1rem;
+  }
 }
