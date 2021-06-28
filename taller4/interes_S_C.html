@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interés simple vs interés compuesto</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1 class="h1_title">Diferencia entre interés simple 💰 e interés compuesto 📈🤑</h1>
+  </header>
+  <main class="main">
+    <p>Te mostraré de una manera muy sencilla porqué el interés compuesto es una maravilla. Aquí tendrás
+      una comparación entre 2 tipos de inversiones, ambas te darán más dinero al finalizar un periodo de tiempo.
+      Cuando más tiempo dejes pasar y más dinero hayas invertido, más grande será la diferencia.
+    </p>
+  </main>
+  <form action="">
+    <label for="inversion_inicial">Ingresa la cantidad de dinero que vas a invertir</label>
+    <input type="number" name="" id="inversion_inicial" min="1">
+    <label for="tiempo_invertido">Ingresa los años vas a dejar crecer el dinero</label>
+    <input type="number" name="" id="tiempo_invertido" min="1">
+    <label for="tasa_interes">Ingresa la tasa de interés</label>
+    <input type="number" name="" id="tasa_interes" min="1">
+    <button type="button" onclick="calculaInversiones()">Calcular inversión</button>
+  </form>
+  <p id="resultadosInversiones"></p>
+  <script src="interes_S_C.js"></script>
+</body>
+</html>

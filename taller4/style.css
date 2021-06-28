@@ -1,0 +1,38 @@
+body {
+  font-family: 'Quicksand', sans-serif;
+  display: grid;
+  height: 85vh;
+  place-items: center;
+}
+
+.main {
+  padding-inline: 20px;
+}
+
+.main p,
+#resultadosInversiones {
+  text-align: justify;
+  font-size: 1.4rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+form input {
+  margin-block-end: 15px;
+}
+
+
+form input[type="number"] {
+  font-size: 1.2rem;
+}
+
+form button {
+  width: fit-content;
+  font-size: 1.2rem;
+}

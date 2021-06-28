@@ -305,3 +305,13 @@ Fórmula para cualqyuer precio y cualquier descuento: `(precio * (100 - descuent
 ### Calculando la moda en JavaScript
 
 ### Reto: calcula otros promedios
+
+## Taller #4: análisis salarial
+
+### Análisis: cómo analizar salarios
+
+### Calculando la mediana de salarios
+
+### Calculando el top 10% de salarios
+
+### Reto: simulación de estudio de salarios
